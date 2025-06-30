@@ -135,7 +135,7 @@ def main():
         result = cloudinary.api.resources(
             type='upload',
             resource_type='video',
-            prefix='For_Youtube_Videos/',
+            prefix='motivation_vintage/',
             max_results=500
         )
         videos = result.get('resources', [])
